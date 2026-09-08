@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-display {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+}
+
+/* Custom glow and stadium lighting utilities */
+.glow-gold {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.45);
+}
+
+.glow-neon {
+  box-shadow: 0 0 25px rgba(34, 197, 94, 0.5);
+}
+
+.glow-text-gold {
+  text-shadow: 0 0 15px rgba(245, 158, 11, 0.6);
+}
+
+.glow-text-neon {
+  text-shadow: 0 0 15px rgba(34, 197, 94, 0.6);
+}
+
+.glow-text-red {
+  text-shadow: 0 0 15px rgba(239, 68, 68, 0.7);
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}

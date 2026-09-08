@@ -1,0 +1,10 @@
+{
+  "name": "Shadow Cricket Lite",
+  "description": "Single-player camera-based motion cricket game powered by pose detection and 3D ball physics.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
